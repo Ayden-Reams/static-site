@@ -8,6 +8,35 @@
 </head>
 <body>
 
+  <script>
+    (function() {
+      const container = document.createElement('div');
+      container.id = 'askturing_chatbot_container';
+      container.style.width = '100%';
+      container.style.display = 'flex';
+      container.style.justifyContent = 'center';
+      container.style.alignItems = 'center';
+      container.style.margin = '20px 0';
+
+      const iframe = document.createElement('iframe');
+      iframe.id = 'askturing_chatbot_embed';
+      iframe.src = 'https://app.askturing.bot/embed/0c63cfa1-bf2e-42b3-8f48-2dae62fb9d2e?clientUrl=' + encodeURIComponent(window.location.href);
+      iframe.referrerPolicy = 'origin';
+      iframe.width = '100%';
+      iframe.height = '600px';
+      iframe.style.maxWidth = '800px';
+      iframe.style.border = '1px solid #e0e0e0';
+      iframe.style.borderRadius = '24px';
+      iframe.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+      iframe.style.backgroundColor = '#ffffff';
+      iframe.style.overflow = 'hidden';
+      iframe.allow = 'clipboard-write';
+
+      container.appendChild(iframe);
+      document.currentScript.parentNode.insertBefore(container, document.currentScript);
+    })();
+  </script>
+
   <script src="main.js"></script>
 </body>
 </html>
