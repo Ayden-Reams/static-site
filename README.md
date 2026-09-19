@@ -1,6 +1,7 @@
 # Static Site
 
 Minimal static site scaffold with SPA routing support.
+No build step is required: the files in this repo are served as-is.
 
 ## Structure
 
