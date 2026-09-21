@@ -6,7 +6,7 @@ No build step is required: the files in this repo are served as-is.
 ## Structure
 
 ```
-index.html    — HTML5 entry point
+index.html    — HTML5 entry point (also embeds the AskTuring chatbot iframe)
 styles.css    — Stylesheet
 main.js       — JavaScript entry point
 vercel.json   — Vercel deployment config (SPA rewrites)
