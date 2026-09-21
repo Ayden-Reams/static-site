@@ -50,5 +50,3 @@ if (redirect) {
   history.replaceState(null, '', redirect);
 }
 ```
-
-Note: `main.js` has changed; the snippet above has not been verified against the current `main.js` and may be outdated. The current contents of `main.js` were not available for this review, so no verification could be performed; treat the snippet above as unverified until checked against the current `main.js`.
