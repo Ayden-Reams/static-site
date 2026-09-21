@@ -1,12 +1,11 @@
 # Static Site
 
 Minimal static site scaffold with SPA routing support.
-No build step is required: the files in this repo are served as-is.
 
 ## Structure
 
 ```
-index.html    — HTML5 entry point (also embeds the AskTuring chatbot iframe)
+index.html    — HTML5 entry point
 styles.css    — Stylesheet
 main.js       — JavaScript entry point
 vercel.json   — Vercel deployment config (SPA rewrites)
